@@ -1,57 +1,56 @@
 # Useful commands
 
-**Create virtual environment
+**Create virtual environment**
 ```bash
 python -m venv venv
 ```
 
-**Start virtual environment
+**Start virtual environment**
 ```bash
 .\venv\Scripts\activate
 ```
 
-**Install dependencies
+**Install dependencies**
 ```bash
 pip install django
 ```
 
-**Create django project
+**Create django project**
 ```bash
 django-admin startproject tutorialdjango
 ```
 
-**Access the folder
+**Access the folder**
 ```bash
 cd tutorialdjango
 ```
 
-
-**Start local development server
+**Start local development server**
 ```bash
 python manage.py runserver
 ```
 
-**Apply migrations
+**Apply migrations**
 ```bash
 python manage.py migrate
 ```
 
-**Create an app
+**Create an app**
 ```bash
 python manage.py startapp blog
 ```
 
-**Create migration file
+**Create migration file**
 ```bash
 python manage.py makemigrations blog
 ```
 
-**Run migrations
+**Run migrations**
 ```bash
 python manage.py migrate blog
 ```
 
-**Create django super user
+**Create django super user**
 ```bash
 python manage.py createsuperuser
 ```
